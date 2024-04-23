@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    background-color: #252525;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 1rem;
+    padding: 10px;
+}
+nav li:hover{
+    background-color: yellowgreen;
+}
+
+nav button {
+    background-color: #303030;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo{
+    color: white;
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 30px;
+}
+main{
+    padding: 30px;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+main div video{
+    width: 90%;
+    border-radius: 20px;
+}
